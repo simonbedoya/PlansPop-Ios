@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import Parse
 
 class MisPlanesViewController: UIViewController {
 
     override func viewDidLoad() {
-        self.navigationController?.navigationBarHidden = true
+        self.navigationController?.navigationBarHidden = false
 
         super.viewDidLoad()
 
@@ -33,5 +34,13 @@ class MisPlanesViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func log_out(sender: AnyObject) {
+        
+        PFUser.logOut()
+        
+        self.performSegueWithIdentifier("log_out", sender: self)
+        
+        
+    }
 
 }

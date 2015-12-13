@@ -23,7 +23,11 @@ class LoginViewController: UIViewController {
     
         // Do any additional setup after loading the view.
     }
-
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = true
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -46,9 +50,14 @@ class LoginViewController: UIViewController {
         
         if (username!.utf16.count < 4 || password!.utf16.count < 4){
             
+            let alert:UIAlertController = UIAlertController(title: "Invalid", message: "Username must be greater then 4 and password must be greater then 5.", preferredStyle: UIAlertControllerStyle.Alert)
             
-            let alert = UIAlertView(title: "Invalid", message: "Username must be greater then 4 and password must be greater then 5.", delegate: self, cancelButtonTitle: "OK")
-            alert.show()
+            let actionOK:UIAlertAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
+            
+            alert.addAction(actionOK)
+            
+            presentViewController(alert, animated: true, completion: nil)
+            
             
         }else{
         
@@ -59,9 +68,16 @@ class LoginViewController: UIViewController {
                     self.performSegueWithIdentifier("index", sender: self)
                 
                 }else{
+                    
+                    let alert:UIAlertController = UIAlertController(title: "Error", message: "Username and password invalid.", preferredStyle: UIAlertControllerStyle.Alert)
+                    
+                    let actionOK:UIAlertAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
+                    
+                    alert.addAction(actionOK)
+                    
+                    self.presentViewController(alert, animated: true, completion: nil)
                 
-                    let alert = UIAlertView(title: "Error", message: "error", delegate: self, cancelButtonTitle: "OK")
-                    alert.show()
+                    
                 
                 }
             })

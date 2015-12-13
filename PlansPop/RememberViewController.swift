@@ -1,17 +1,16 @@
 //
-//  MapViewController.swift
+//  RememberViewController.swift
 //  PlansPop
 //
-//  Created by Aplimovil on 12/9/15.
+//  Created by Aplimovil on 12/12/15.
 //  Copyright © 2015 Aplimovil. All rights reserved.
 //
 
 import UIKit
 
-class MapViewController: UIViewController {
+class RememberViewController: UIViewController {
 
     override func viewDidLoad() {
-        self.navigationController?.navigationBarHidden = false
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

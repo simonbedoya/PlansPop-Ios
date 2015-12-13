@@ -11,6 +11,14 @@
 		1B63454C1C18DD56007C5CD5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63454B1C18DD56007C5CD5 /* DetailsViewController.swift */; };
 		1B63454E1C18DDBF007C5CD5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63454D1C18DDBF007C5CD5 /* MapViewController.swift */; };
 		1B6345501C18DE5A007C5CD5 /* AssistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63454F1C18DE5A007C5CD5 /* AssistViewController.swift */; };
+		1B6345531C1938A0007C5CD5 /* Logo_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6345511C1938A0007C5CD5 /* Logo_login.png */; };
+		1B6345541C1938A0007C5CD5 /* Logo_photoshop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B6345521C1938A0007C5CD5 /* Logo_photoshop.png */; };
+		1B634F4F1C1A8C5E00665F1B /* CellsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B634F4E1C1A8C5E00665F1B /* CellsTableViewCell.swift */; };
+		1B634F531C1A902F00665F1B /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B634F521C1A902F00665F1B /* Plan.swift */; };
+		1B67080A1C1D00D900265005 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6708091C1D00D900265005 /* RegisterViewController.swift */; };
+		1B6708121C1D03EC00265005 /* RememberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6708111C1D03EC00265005 /* RememberViewController.swift */; };
+		1B6708141C1D082800265005 /* Register_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6708131C1D082800265005 /* Register_2ViewController.swift */; };
+		1B6708171C1D167300265005 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6708161C1D167300265005 /* DatePickerDialog.swift */; };
 		1BC6228F1C1749C90084F721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC6228E1C1749C90084F721 /* AppDelegate.swift */; };
 		1BC622911C1749C90084F721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC622901C1749C90084F721 /* ViewController.swift */; };
 		1BC622941C1749C90084F721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC622921C1749C90084F721 /* Main.storyboard */; };
@@ -28,8 +36,6 @@
 		1BC622B31C1753BB0084F721 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC622B21C1753BB0084F721 /* SystemConfiguration.framework */; };
 		1BC622B51C1753C40084F721 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC622B41C1753C40084F721 /* libz.tbd */; };
 		1BC622B71C1753D00084F721 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC622B61C1753D00084F721 /* libsqlite3.tbd */; };
-		1BC622BB1C175D060084F721 /* Logo_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC622B91C175D060084F721 /* Logo_login.png */; };
-		1BC622BC1C175D060084F721 /* Logo_photoshop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC622BA1C175D060084F721 /* Logo_photoshop.png */; };
 		1BC622C21C1769F90084F721 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC622C11C1769F90084F721 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +44,14 @@
 		1B63454B1C18DD56007C5CD5 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		1B63454D1C18DDBF007C5CD5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1B63454F1C18DE5A007C5CD5 /* AssistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistViewController.swift; sourceTree = "<group>"; };
+		1B6345511C1938A0007C5CD5 /* Logo_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo_login.png; path = ../../Downloads/Logo_login.png; sourceTree = "<group>"; };
+		1B6345521C1938A0007C5CD5 /* Logo_photoshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo_photoshop.png; path = ../../Downloads/Logo_photoshop.png; sourceTree = "<group>"; };
+		1B634F4E1C1A8C5E00665F1B /* CellsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellsTableViewCell.swift; sourceTree = "<group>"; };
+		1B634F521C1A902F00665F1B /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		1B6708091C1D00D900265005 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1B6708111C1D03EC00265005 /* RememberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RememberViewController.swift; sourceTree = "<group>"; };
+		1B6708131C1D082800265005 /* Register_2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register_2ViewController.swift; sourceTree = "<group>"; };
+		1B6708161C1D167300265005 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
 		1BC6228B1C1749C90084F721 /* PlansPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlansPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC6228E1C1749C90084F721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BC622901C1749C90084F721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,8 +71,6 @@
 		1BC622B21C1753BB0084F721 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1BC622B41C1753C40084F721 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1BC622B61C1753D00084F721 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1BC622B91C175D060084F721 /* Logo_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo_login.png; path = ../../../Downloads/Logo_login.png; sourceTree = "<group>"; };
-		1BC622BA1C175D060084F721 /* Logo_photoshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo_photoshop.png; path = ../../../Downloads/Logo_photoshop.png; sourceTree = "<group>"; };
 		1BC622C11C1769F90084F721 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +97,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B634F511C1A900C00665F1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B634F521C1A902F00665F1B /* Plan.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1B67080B1C1D016200265005 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BC622901C1749C90084F721 /* ViewController.swift */,
+				1B47B37A1C18D2F900A08A34 /* MisPlanesViewController.swift */,
+				1B63454B1C18DD56007C5CD5 /* DetailsViewController.swift */,
+				1B63454D1C18DDBF007C5CD5 /* MapViewController.swift */,
+				1B63454F1C18DE5A007C5CD5 /* AssistViewController.swift */,
+				1BC622C11C1769F90084F721 /* LoginViewController.swift */,
+				1B6708091C1D00D900265005 /* RegisterViewController.swift */,
+				1B6708111C1D03EC00265005 /* RememberViewController.swift */,
+				1B6708131C1D082800265005 /* Register_2ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1B67080C1C1D017500265005 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1B6345511C1938A0007C5CD5 /* Logo_login.png */,
+				1B6345521C1938A0007C5CD5 /* Logo_photoshop.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1B67080D1C1D018200265005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BC622921C1749C90084F721 /* Main.storyboard */,
+				1BC622971C1749C90084F721 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1B67080E1C1D018C00265005 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1BC6229A1C1749CA0084F721 /* Info.plist */,
+				1BC6228E1C1749C90084F721 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		1B67080F1C1D019A00265005 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1B634F4E1C1A8C5E00665F1B /* CellsTableViewCell.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		1B6708151C1D164200265005 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1B6708161C1D167300265005 /* DatePickerDialog.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 		1BC622821C1749C90084F721 = {
 			isa = PBXGroup;
 			children = (
@@ -105,19 +184,14 @@
 		1BC6228D1C1749C90084F721 /* PlansPop */ = {
 			isa = PBXGroup;
 			children = (
-				1BC6228E1C1749C90084F721 /* AppDelegate.swift */,
-				1BC622901C1749C90084F721 /* ViewController.swift */,
-				1B47B37A1C18D2F900A08A34 /* MisPlanesViewController.swift */,
-				1B63454B1C18DD56007C5CD5 /* DetailsViewController.swift */,
-				1B63454D1C18DDBF007C5CD5 /* MapViewController.swift */,
-				1B63454F1C18DE5A007C5CD5 /* AssistViewController.swift */,
-				1BC622921C1749C90084F721 /* Main.storyboard */,
+				1B6708151C1D164200265005 /* Library */,
+				1B634F511C1A900C00665F1B /* Models */,
+				1B67080E1C1D018C00265005 /* App */,
+				1B67080B1C1D016200265005 /* Controllers */,
+				1B67080F1C1D019A00265005 /* TableView */,
+				1B67080D1C1D018200265005 /* Views */,
 				1BC622951C1749C90084F721 /* Assets.xcassets */,
-				1BC622B91C175D060084F721 /* Logo_login.png */,
-				1BC622BA1C175D060084F721 /* Logo_photoshop.png */,
-				1BC622971C1749C90084F721 /* LaunchScreen.storyboard */,
-				1BC6229A1C1749CA0084F721 /* Info.plist */,
-				1BC622C11C1769F90084F721 /* LoginViewController.swift */,
+				1B67080C1C1D017500265005 /* Images */,
 			);
 			path = PlansPop;
 			sourceTree = "<group>";
@@ -201,8 +275,8 @@
 			files = (
 				1BC622991C1749C90084F721 /* LaunchScreen.storyboard in Resources */,
 				1BC622961C1749C90084F721 /* Assets.xcassets in Resources */,
-				1BC622BB1C175D060084F721 /* Logo_login.png in Resources */,
-				1BC622BC1C175D060084F721 /* Logo_photoshop.png in Resources */,
+				1B6345531C1938A0007C5CD5 /* Logo_login.png in Resources */,
+				1B6345541C1938A0007C5CD5 /* Logo_photoshop.png in Resources */,
 				1BC622941C1749C90084F721 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,11 +289,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC622C21C1769F90084F721 /* LoginViewController.swift in Sources */,
+				1B67080A1C1D00D900265005 /* RegisterViewController.swift in Sources */,
+				1B634F4F1C1A8C5E00665F1B /* CellsTableViewCell.swift in Sources */,
 				1B63454E1C18DDBF007C5CD5 /* MapViewController.swift in Sources */,
+				1B6708121C1D03EC00265005 /* RememberViewController.swift in Sources */,
 				1BC622911C1749C90084F721 /* ViewController.swift in Sources */,
 				1BC6228F1C1749C90084F721 /* AppDelegate.swift in Sources */,
+				1B634F531C1A902F00665F1B /* Plan.swift in Sources */,
+				1B6708171C1D167300265005 /* DatePickerDialog.swift in Sources */,
 				1B6345501C18DE5A007C5CD5 /* AssistViewController.swift in Sources */,
 				1B47B37B1C18D2F900A08A34 /* MisPlanesViewController.swift in Sources */,
+				1B6708141C1D082800265005 /* Register_2ViewController.swift in Sources */,
 				1B63454C1C18DD56007C5CD5 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
